@@ -1,0 +1,18 @@
+GET http://localhost:5001/api/todos
+
+###
+
+POST http://localhost:5001/api/todo/new
+Content-Type: application/json
+
+{
+    "title":"CREATE functionality working!"
+}
+
+###
+
+DELETE http://localhost:5001/api/todo/delete/6795f6a5fe2e846e112e7d70
+
+###
+
+GET http://localhost:5001/api/todo/toggleStatus/6795f6c0fe2e846e112e7d73
